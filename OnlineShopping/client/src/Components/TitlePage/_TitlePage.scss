@@ -1,0 +1,31 @@
+.title-page {
+  .breadcrumb {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+
+    &-item {
+      font-size: 1.5rem;
+      color: #999999;
+      font-weight: 600;
+    }
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1199.98px) {
+  .title-page {
+    margin-top: 5.6rem;
+  }
+}

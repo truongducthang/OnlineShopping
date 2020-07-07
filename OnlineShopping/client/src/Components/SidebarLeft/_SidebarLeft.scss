@@ -1,0 +1,166 @@
+.sidebar {
+  border-right: 1px solid rgba(204, 204, 204, 0.5);
+  padding-bottom: 5rem;
+}
+.sidebar-left {
+  width: 95%;
+  .title {
+    font-size: 2rem;
+    color: #273a4f;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .searchBar {
+    margin-bottom: 4rem;
+
+    .search {
+      position: relative;
+
+      input[type='search'] {
+        width: 100%;
+        padding: 0.9rem 1.5rem;
+        border: 1px solid rgba(165, 168, 172, 0.25);
+        color: #777777;
+        background-color: #fcfcfc;
+      }
+
+      svg {
+        position: absolute;
+        top: 1.1rem;
+        right: 1.4rem;
+      }
+    }
+  }
+
+  .category {
+    ul {
+      list-style: none;
+    }
+
+    .product-category {
+      .children {
+        margin-left: 20px;
+      }
+
+      &__item {
+        margin-bottom: 1rem;
+      }
+
+      &__link {
+        text-decoration: none;
+        color: #777777;
+        font-weight: 500;
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .price-filter {
+    margin-top: 3rem;
+
+    &__slider {
+    }
+
+    .btn {
+      margin-top: 2rem;
+      background-color: #ef524a;
+      border-radius: 1px;
+      padding: 0.6rem 1.6rem;
+      border: 0;
+
+      span {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      &:hover {
+        background-color: #dc3545;
+      }
+    }
+  }
+
+  .ant-slider-track {
+    background-color: #ef524a;
+  }
+}
+.toggle-sidebar {
+  position: absolute;
+  padding: 1rem 1.5rem;
+  border: 1px solid grey;
+  top: 40%;
+  left: 40rem;
+  cursor: pointer;
+  background-color: #fff;
+  z-index: 9995;
+  display: none;
+  svg {
+    color: #ef524a;
+  }
+}
+
+.toggle-sidebar {
+  position: absolute;
+  padding: 1rem 1.5rem;
+  border: 1px solid grey;
+  top: 40%;
+  left: 0;
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+}
+
+@media (min-width: 320px) and (max-width: 1199.98px) {
+  .sidebar {
+    padding: 0;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+    height: 100vh;
+    transition: all 0.4s;
+    .toggle-sidebar {
+      left: 0;
+      display: block;
+      transition: all 0.4s;
+    }
+    .searchBar,
+    .category,
+    .price-filter {
+      display: none;
+    }
+  }
+
+  .sidebar.Active {
+    padding: 3rem;
+    width: 100%;
+    transition: 0.5s;
+    .toggle-sidebar {
+      left: 80%;
+      top: 2rem;
+      transition: all 0s;
+    }
+    .searchBar,
+    .category,
+    .price-filter {
+      display: block;
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .sidebar.Active {
+    width: 40rem;
+    overflow-y: auto;
+    .toggle-sidebar {
+      left: 35rem;
+      top: 40%;
+      transition: all 0.5s;
+    }
+    .price-filter__slider {
+      width: 90%;
+    }
+  }
+}

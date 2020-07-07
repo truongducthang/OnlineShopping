@@ -1,0 +1,157 @@
+.featured-products {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .heading-secondary {
+    &__icon {
+      &::before {
+        left: 43rem;
+      }
+
+      &::after {
+        right: 43rem;
+      }
+    }
+  }
+
+  .productItem {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  //button slide
+  .react-multiple-carousel__arrow {
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #ef524a;
+
+    &::before {
+      color: #ef524a;
+    }
+
+    &--left {
+      left: 1.5rem;
+    }
+
+    &--right {
+      right: 1.5rem;
+    }
+  }
+}
+
+//  Responsive heading-secondary 
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .featured-products {
+    .heading-secondary {
+      &__icon {
+        &::after {
+          width: 10rem;
+          right: 18rem;
+        }
+
+        &::before {
+          width: 10rem;
+          left: 18rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+  .featured-products {
+    .heading-secondary {
+      &__icon {
+        &::after {
+          width: 10rem;
+          right: 21rem;
+        }
+
+        &::before {
+          width: 10rem;
+          left: 21rem;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+  .featured-products {
+    .heading-secondary {
+      &__icon {
+        &::after {
+          width: 11.5rem;
+          right: 24rem;
+        }
+
+        &::before {
+          width: 11.5rem;
+          left: 25rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 765.98px) {
+  .featured-products {
+    .heading-secondary {
+      &__icon {
+        &::after {
+          width: 11.5rem;
+          right: 30rem;
+        }
+
+        &::before {
+          width: 11.5rem;
+          left: 30rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .featured-products {
+    .heading-secondary {
+      &__icon {
+        &::after {
+          width: 11.5rem;
+          right: 22rem;
+        }
+
+        &::before {
+          width: 11.5rem;
+          left: 22rem;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .featured-products {
+    .heading-secondary {
+      &__icon {
+        &::after {
+          width: 11.5rem;
+          right: 52rem;
+        }
+
+        &::before {
+          width: 11.5rem;
+          left: 52rem;
+        }
+      }
+    }
+  }
+
+}

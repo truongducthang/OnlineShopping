@@ -1,0 +1,20 @@
+@import './Reset.css';
+@import './components/Base/base';
+@import './Components//Base/animations';
+//components
+
+@import './components/Base/typogaphy';
+@import './components/Header/Header';
+@import './components/Footer/Footer';
+@import './Components//cpn/ProductItem';
+@import './Components/Home/Home';
+@import './Components/TitlePage/TitlePage';
+@import './Components/AllProducts/Allproducts';
+@import './Components/SidebarLeft/SidebarLeft';
+@import './Components/ProductsDetail/ProductsDetail';
+@import './Components/Cart/Cart';
+@import './components/SignupPage/SignupPage';
+@import './components/SigninPage/SigninPage';
+
+//responsive
+@import './ResponsiveApp';

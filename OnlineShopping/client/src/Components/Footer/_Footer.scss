@@ -1,0 +1,80 @@
+.footer {
+  border-top: 0.5px solid #17a2b8;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #0e243c;
+
+  .text-box {
+    &__title {
+      color: #17a2b8;
+      padding-bottom: 1.5rem;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    &__content {
+      .list-group__item {
+        list-style: none;
+        padding: 1px 0;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 400;
+
+        &:hover {
+          color: #20c997;
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+
+      span {
+        padding-right: 0.5rem;
+      }
+
+      .contact-small {
+        color: #20c997;
+
+        &:hover {
+          color: #ff9b00;
+        }
+      }
+
+      .form {
+        padding-top: 1.5rem;
+
+        &-group {
+          display: flex;
+        }
+
+        input {
+          padding: 2rem 1.5rem 2rem 2rem;
+          font-size: 1.4rem;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+
+        button {
+          padding: 0 1rem;
+          font-size: 1.3rem;
+          font-weight: 500;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+
+          &:hover {
+            background-color: #000000;
+            border-color: #000000;
+          }
+        }
+      }
+    }
+  }
+}

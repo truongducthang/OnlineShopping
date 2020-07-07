@@ -1,0 +1,135 @@
+.main-slideshow {
+
+  // overflow: hidden;
+  &__item {
+    height: 50rem;
+  }
+
+  &__item-1 {
+    background: url(../../../assets/img/slideshow/bg-slide-shop-01.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .layer-1 {
+      left: 10%;
+      margin-top: 4rem;
+    }
+
+    .layer-2 {
+      left: 20%;
+    }
+
+    .layer-3 {
+      right: 20%;
+    }
+
+    .layer-4 {
+      right: 10%;
+      margin-top: 4rem;
+    }
+  }
+
+  &__item-2 {
+    background: url(../../../assets/img/slideshow/bg-slide-shop-02.jpg);
+    display: flex;
+    align-items: center;
+
+    .main-slideshow__textbox {
+      position: absolute;
+      left: 19%;
+    }
+
+    .layer-1 {
+      right: 37%;
+    }
+
+    .layer-2 {
+      right: 30%;
+    }
+
+    .layer-3 {
+      right: 23%;
+      z-index: 1;
+    }
+
+    .layer-4 {
+      right: 16%;
+    }
+  }
+
+  &__item-3 {
+    background: url(../../../assets/img/slideshow/bg-slide-shop-03.jpg);
+    display: flex;
+    align-items: center;
+
+    .main-slideshow__textbox {
+      position: absolute;
+      right: 19%;
+    }
+
+    .layer-1 {
+      left: 12%;
+    }
+
+    .layer-2 {
+      left: 19%;
+    }
+
+    .layer-3 {
+      left: 28%;
+    }
+  }
+
+  &__textbox {
+    text-align: center;
+
+    p {
+      text-transform: uppercase;
+      color: #0e243c;
+    }
+
+    .product {
+      font-size: 10rem;
+      line-height: 10rem;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+
+    .seasons {
+      font-weight: 400;
+      font-size: 4.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      text-transform: uppercase;
+      padding: 1.8rem 2.7rem;
+      background-color: #ef524a;
+      font-size: 1.6rem;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+
+  .layer-wrap {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  //button slide
+  .react-multiple-carousel__arrow {
+    border-radius: 0;
+    background-color: #ef524a;
+
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+  }
+}

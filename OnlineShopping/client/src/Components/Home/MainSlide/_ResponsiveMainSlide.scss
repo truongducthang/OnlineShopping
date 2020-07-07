@@ -1,0 +1,496 @@
+//mobile L
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .main-slideshow {
+    &__item {
+      height: 100vh;
+    }
+
+    &__textbox {
+      .product {
+        font-size: 4rem;
+        line-height: 4rem;
+      }
+
+      .seasons {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
+
+      .btn {
+        padding: 1.2rem 2.1rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+    }
+
+    .layer-wrap {
+      .img-fluid {
+        max-width: 30%;
+      }
+
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      width: 80%;
+    }
+
+    &__item-1 {
+      .layer-1 {
+        left: -12%;
+        margin-top: 17rem;
+      }
+
+      .layer-2 {
+        left: -11%;
+        margin-top: -17rem;
+      }
+
+      .layer-3 {
+        right: -11%;
+        margin-top: -17rem;
+      }
+
+      .layer-4 {
+        right: -12%;
+        margin-top: 17rem;
+      }
+    }
+
+    &__item-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .main-slideshow__textbox {
+        position: static;
+      }
+
+      .layer-wrap {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 90%;
+      }
+
+      .layer-1 {
+        left: -20%;
+        margin-top: 17rem;
+      }
+
+      .layer-2 {
+        left: -20%;
+        margin-top: -17rem;
+
+      }
+
+      .layer-3 {
+        right: -20%;
+        margin-top: -17rem;
+
+      }
+
+      .layer-4 {
+        right: -20%;
+        margin-top: 17rem;
+
+      }
+    }
+
+    &__item-3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .main-slideshow__textbox {
+        position: static;
+        right: 6%;
+        margin-top: 10rem;
+      }
+
+      .layer-1 {
+        width: 100%;
+        left: -25%;
+        margin-top: -15rem;
+      }
+
+      .layer-2 {
+        width: 100%;
+        left: -1%;
+        margin-top: -15rem;
+      }
+
+      .layer-3 {
+        width: 100%;
+        left: 25%;
+        margin-top: -15rem;
+      }
+    }
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 1367.98px) {
+  .main-slideshow {
+    &__item {
+      height: 36rem;
+    }
+
+    &__textbox {
+      .product {
+        font-size: 4rem;
+        line-height: 4rem;
+      }
+
+      .seasons {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
+
+      .btn {
+        padding: 1.2rem 2.1rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+    }
+
+    .layer-wrap {
+      .img-fluid {
+        max-width: 35%;
+      }
+    }
+
+    &__item-1 {
+      .layer-1 {
+        left: -12%;
+        margin-top: 2rem;
+      }
+
+      .layer-2 {
+        left: -1%;
+      }
+
+      .layer-3 {
+        right: -1%;
+      }
+
+      .layer-4 {
+        right: -12%;
+        margin-top: 2rem;
+      }
+    }
+
+    &__item-2 {
+      .main-slideshow__textbox {
+        left: 9%;
+      }
+
+      .layer-1 {
+        right: 15%;
+      }
+
+      .layer-2 {
+        right: 7%;
+      }
+
+      .layer-3 {
+        right: -1%;
+      }
+
+      .layer-4 {
+        right: -9%;
+      }
+    }
+
+    &__item-3 {
+      .main-slideshow__textbox {
+        right: 8%;
+      }
+
+      .layer-1 {
+        left: -11%;
+      }
+
+      .layer-2 {
+        left: -7%;
+      }
+
+      .layer-3 {
+        left: 1%;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 1367.98px) {
+  .main-slideshow {
+    &__textbox {
+      .product {
+        font-size: 6rem;
+        line-height: 6rem;
+      }
+
+      .seasons {
+        font-size: 2.5rem;
+        line-height: 5rem;
+      }
+
+      .btn {
+        padding: 1.4rem 2.1rem;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+      }
+    }
+
+    .layer-wrap {
+      .img-fluid {
+        max-width: 50%;
+      }
+    }
+
+    &__item-1 {
+      .layer-1 {
+        left: -7%;
+        margin-top: 2rem;
+      }
+
+      .layer-2 {
+        left: 4%;
+      }
+
+      .layer-3 {
+        right: 4%;
+      }
+
+      .layer-4 {
+        right: -7%;
+        margin-top: 2rem;
+      }
+    }
+
+    &__item-2 {
+      .layer-1 {
+        right: 29%;
+      }
+
+      .layer-2 {
+        right: 19%;
+      }
+
+      .layer-3 {
+        right: 10%;
+      }
+
+      .layer-4 {
+        right: -1%;
+      }
+    }
+
+    &__item-3 {
+      .main-slideshow__textbox {
+        right: 6%;
+      }
+
+      .layer-1 {
+        left: -5%;
+      }
+
+      .layer-2 {
+        left: 2%;
+      }
+
+      .layer-3 {
+        left: 12%;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1367.98px) {
+  .main-slideshow {
+    &__textbox {
+      .product {
+        font-size: 7.8rem;
+        line-height: 7.8rem;
+      }
+
+      .seasons {
+        font-size: 3.3rem;
+        line-height: 4rem;
+      }
+
+    }
+
+    .layer-wrap {
+      .img-fluid {
+        max-width: 65%;
+      }
+    }
+
+    &__item-1 {
+      .layer-1 {
+        left: 0%;
+        margin-top: 2rem;
+      }
+
+      .layer-2 {
+        left: 10%;
+      }
+
+      .layer-3 {
+        right: 10%;
+      }
+
+      .layer-4 {
+        right: 0%;
+        margin-top: 2rem;
+      }
+    }
+
+    &__item-3 {
+
+      .layer-1 {
+        left: -3%;
+      }
+
+      .layer-2 {
+        left: 5%;
+      }
+
+      .layer-3 {
+        left: 16%;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1368px) and (max-width: 1599.98px) {
+  .main-slideshow {
+    .layer-wrap {
+      .img-fluid {
+        max-width: 95%;
+      }
+    }
+
+    &__item-1 {
+      .layer-1 {
+        left: 6%;
+      }
+
+      .layer-2 {
+        left: 16%;
+      }
+
+      .layer-3 {
+        right: 16%;
+      }
+
+      .layer-4 {
+        right: 6%;
+      }
+    }
+
+    &__item-2 {
+      .main-slideshow__textbox {
+        left: 12%;
+      }
+
+      .layer-1 {
+        right: 32%;
+      }
+
+      .layer-2 {
+        right: 25%;
+      }
+
+      .layer-3 {
+        right: 18%;
+      }
+
+      .layer-4 {
+        right: 11%;
+      }
+    }
+
+    &__item-3 {
+      .main-slideshow__textbox {
+        right: 12%;
+      }
+
+      .layer-1 {
+        left: 2%;
+      }
+
+      .layer-2 {
+        left: 11%;
+      }
+
+      .layer-3 {
+        left: 24%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1367.98px) {
+  .main-slideshow {
+    &__item {
+      height: 44rem;
+    }
+
+    &__textbox {
+      .product {
+        font-size: 9.5rem;
+        line-height: 9.5rem;
+
+      }
+
+      .seasons {
+        font-size: 4rem;
+      }
+    }
+
+    .layer-wrap {
+      .img-fluid {
+        max-width: 85%;
+      }
+    }
+
+    &__item-1 {
+      .layer-1 {
+        left: 3%;
+      }
+
+      .layer-2 {
+        left: 13%;
+      }
+
+      .layer-3 {
+        right: 13%;
+      }
+
+      .layer-4 {
+        right: 3%;
+      }
+    }
+
+
+
+    &__item-3 {
+      .layer-1 {
+        left: 2%;
+      }
+
+      .layer-2 {
+        left: 11%;
+      }
+
+      .layer-3 {
+        left: 24%;
+      }
+    }
+  }
+}
