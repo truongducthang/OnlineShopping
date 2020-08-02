@@ -15,9 +15,7 @@ class Sale extends Component {
   componentDidMount() {
     this.props.fetchDatabaseAllProducts();
   }
-  log = () => {
-    console.log(' \n ' + JSON.stringify(this.props.DbAllProducts) + ' \n');
-  };
+
   changeStatusFilter = () => {
     this.setState({
       // statusFilter: !this.state.statusFilter,

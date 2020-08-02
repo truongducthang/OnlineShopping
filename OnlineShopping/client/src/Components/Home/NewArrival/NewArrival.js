@@ -44,11 +44,7 @@ class NewArrival extends Component {
   componentDidMount() {
     this.props.fetchDatabaseAllProducts();
   }
-  log = () => {
-    console.log(
-      ' \n DB API :  ' + JSON.stringify(this.props.DbAllProducts) + ' \n'
-    );
-  };
+
   handleClick = (productPortfolio) => {
     this.setState({ changeItem: productPortfolio });
   };

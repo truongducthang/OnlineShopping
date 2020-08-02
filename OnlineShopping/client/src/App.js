@@ -15,7 +15,6 @@ import SignupPage from './Components/SignupPage/SignupPage';
 import SigninPage from './Components/SigninPage/SigninPage';
 import EEEE from './Components/Error/EEEE';
 import CartContainer from './Components/Cart/CartContainer';
-import Testpage from './Components/Testpage/Testpage';
 
 function App() {
   return (
@@ -45,7 +44,6 @@ function App() {
         <Route path="/signup" component={SignupPage}/>
         <Route path="/signin" component={SigninPage}/>
         <Route path="/cart" component={CartContainer}/>
-        <Route path="/testpage" component={Testpage}/>
         <Route path="" component={EEEE} />
       </Switch>
       <Footer></Footer>

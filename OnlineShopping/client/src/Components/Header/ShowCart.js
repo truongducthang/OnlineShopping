@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 class ShowCart extends Component {
   onDeleteProductInCart = (product) => {
-    console.log(product);
+    // console.log(product);
     this.props.onDeleteProductInCart(product);
   };
   render() {

@@ -45,7 +45,7 @@ export default class SigninPage extends Component {
   };
   Demo = () => {
     const onFinish = (values) => {
-      console.log('Success:', values);
+      // console.log('Success:', values);
 
       let that = this;
 

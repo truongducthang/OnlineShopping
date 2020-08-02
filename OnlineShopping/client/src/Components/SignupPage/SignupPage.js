@@ -54,7 +54,7 @@ function SignupPage(props) {
     const [form] = Form.useForm();
 
     const onFinish = (values) => {
-      console.log('Received values of form: ', values);
+      // console.log('Received values of form: ', values);
       let that = this;
 
       axios
