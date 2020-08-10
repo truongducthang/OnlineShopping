@@ -146,7 +146,7 @@ class CartItem extends Component {
 							</div>
 							<input
 								type="number"
-								defaultValue={
+								value={
 									item.quantity > 0 ? item.quantity : this.state.quantity
 								}
 								step="1"
